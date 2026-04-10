@@ -1,37 +1,51 @@
-🚀 SyntexHub AI Voice Assistant
+# 🤖 SyntexHub AI Voice Assistant
 
-An intelligent Python-based AI Voice Assistant that enables hands-free interaction through voice commands. It can recognize speech, execute system tasks, and respond using a natural text-to-speech engine.
+An intelligent Python-based Voice Assistant that understands speech commands, executes system tasks, and responds using Text-to-Speech (TTS).
 
-📌 Overview
+---
+
+## 📌 Overview
 
 SyntexHub AI Voice Assistant is designed to simulate a basic AI assistant capable of:
 
-Listening to user voice commands 🎤
-Processing instructions intelligently 🧠
-Executing system-level actions 💻
-Responding using speech output 🔊
+- 🎤 Listening to voice commands  
+- 🧠 Processing instructions intelligently  
+- 💻 Executing system-level actions  
+- 🔊 Responding using speech output  
 
-It provides a smooth CLI-based interactive experience with continuous listening mode.
+It runs in a continuous loop and provides a smooth CLI-based interactive experience.
 
-✨ Features
-🎤 Voice Input Recognition using SpeechRecognition
-🧠 Command-based Processing System
-💬 Chatbot Fallback Responses
-🔊 Text-to-Speech (TTS) Output
-⏰ Time and System Query Handling
-🌐 Web Automation (Open Google, search, etc.)
-❌ Exit Command Support
-🔁 Continuous Listening Loop
-🔐 Optional Face Authentication (OpenCV-based)
-🛠 Tech Stack
-Language: Python 3.x
-Libraries:
-pyttsx3 – Text-to-Speech engine
-SpeechRecognition – Voice input processing
-opencv-python – Face authentication (optional)
-webbrowser – Open websites
-os – System-level commands
-📁 Project Structure
+---
+
+## ✨ Features
+
+- 🎤 Voice Input Recognition (SpeechRecognition)
+- 🧠 Command-based Processing System
+- 💬 Chatbot Fallback Responses
+- 🔊 Text-to-Speech (TTS) Output
+- ⏰ Time & System Queries Handling
+- 🌐 Web Automation (Open Google, Search, etc.)
+- ❌ Exit Command Support
+- 🔁 Continuous Listening Mode
+- 🔐 Optional Face Authentication (OpenCV)
+
+---
+
+## 🛠 Tech Stack
+
+- **Language:** Python 3.x  
+- **Libraries:**
+  - pyttsx3
+  - SpeechRecognition
+  - opencv-python
+  - webbrowser
+  - os
+
+---
+
+## 📁 Project Structure
+
+
 SyntexHub_AI_Assistant/
 │
 ├── main.py
@@ -44,26 +58,32 @@ SyntexHub_AI_Assistant/
 ├── history.py
 ├── requirements.txt
 └── README.md
-⚙️ Installation
-1. Clone the Repository
+
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+```bash
 git clone https://github.com/sulphitelady/syntexchub_capestone.git
 cd SyntexHub_AI_Assistant
 2. Install Dependencies
 pip install -r requirements.txt
 
-Or manually:
+OR manually:
 
 pip install pyttsx3 SpeechRecognition opencv-python
-▶️ How to Run
+▶️ Run Project
 python main.py
 🧠 How It Works
-The system starts and initializes the assistant
-It listens for voice input continuously
-Command is processed:
-If recognized → system executes action
+System starts and initializes the assistant
+Continuously listens for voice input
+Processes command:
+If recognized → executes system action
 If unknown → chatbot responds
-Response is spoken using TTS engine
-Loop continues until "exit" is spoken
+Response is converted to speech (TTS)
+Loop continues until user says "exit"
 💡 Example Commands
 “Tell me the time”
 “Open Google”
@@ -71,9 +91,9 @@ Loop continues until "exit" is spoken
 “Hello”
 “Exit”
 🚀 Future Improvements
-🌐 GUI interface using Tkinter / PyQt
-🤖 Integration with OpenAI / LLM chatbot
-🗣️ More natural voice responses
+🌐 GUI using Tkinter or PyQt
+🤖 Integration with OpenAI / LLM
+🗣️ More natural AI voice responses
 🎯 Wake word detection (“Hey Assistant”)
 📱 Mobile application version
 👨‍💻 Author
@@ -81,6 +101,6 @@ Loop continues until "exit" is spoken
 Namra Mughal
 AI & Software Development Enthusiast
 
-⭐ If you like this project
+⭐ Support
 
-Give it a ⭐ on GitHub and feel free to contribute!
+If you like this project, consider giving it a ⭐ on GitHub.
